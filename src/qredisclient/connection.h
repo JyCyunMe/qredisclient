@@ -16,6 +16,8 @@
 #include "response.h"
 #include "scancommand.h"
 
+#define SSH_SUPPORT
+
 namespace RedisClient {
 
 class AbstractTransporter;
